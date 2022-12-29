@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="abc"></p>
+        <script>
+            var txt = " ";
+            var person = {fname:"Rahul", lname: "Sharma", age: 25};
+            var x;
+            for (x in person){
+                txt += person[x]+" ";
+            }
+            document.getElementById("abc").innerHTML = txt;
+        </script>
+    </body>
+</html>

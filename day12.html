@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+    <head>
+
+    </head>
+<body>
+    <form action="/action_page.html" method="post" autocomplete="on">
+        <fieldset>
+        <legend>Personal information</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="lname" name="lname" id="lname"><br>
+        <label for="birthday">Date of birth:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <label for="gender">Gender:</label>
+                <select name="Gender" id="gender">
+                    <option value="">--Gender--</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select><br><br>
+    </fieldset>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" required><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+        <label for="Qualification">Qualification:</label><br>
+        <input type="checkbox" id="10th pass" name="10th pass" value="10th">
+        <label for="10th pass"> 10th pass</label><br>
+        <input type="checkbox" id="12th pass" name="12th pass" value="12th">
+        <label for="12th pass"> 12th pass</label><br>
+        <input type="checkbox" id="Graduate" name="Graduate" value="Graduate">
+        <label for="Graduate"> Graduate</label><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <label for="Date and time(local)">Date and time(local):</label>
+        <input type="datetime-local" id="Date and time(local)" name="Date and time(local)"><br><br>
+        <label for="myfile">Upload photo:</label>
+        <input type="file" id="myfile" name="myfile" multiple><br><br>
+        <label for="Hidden">Hidden:</label>
+        <input type="hidden" id="hidden" name="hidden" value="hidden"><br><br>
+        <label for="Joining month">Joining month:</label>
+        <input type="month" id="Joining month" name="Joining month"><br><br>
+        <label for="Joining week">Joining week:</label>
+        <input type="week" id="week" name="week">
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search"><br><br>
+        <label for="homepage">Add your linkedin:</label>
+        <input type="url" id="linkedin" name="linkedin"><br><br>
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range">
+        <input type="button" value="Click me" onclick="alert('Hello World')"><br><br>
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}"><br><br>
+        <text area name="message" rows="10" cols="30">
+            The cate was playing in the garden.
+        </text><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+  
+</form>
+</body>
+</html>
+
+
+
